@@ -1,0 +1,17 @@
+body {
+    font-family: Roboto;
+    color:black;
+}
+.logo {
+    color: blue;
+}
+
+.filter-button li{
+    color:grey;
+}
+
+.filter-button li:hover,
+.filter-button li:focus{
+    color:blue;
+}
+
