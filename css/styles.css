@@ -1,11 +1,153 @@
 body {
     font-family: Roboto;
-    color:black;
-}
-.logo {
-    color: blue;
+    color: black;
+    background-color: #fff;
 }
 
+.list{
+    list-style: none; /* remove dots from list */
+}
+
+a:link{
+    text-decoration: none; /* remove underline from links */
+}
+
+/* --------------------  navigation ----------------- */
+header{
+    background-color: #fff;
+}
+.logo span{
+    font-family: Raleway;
+    font-size:26px;
+    font-weight:700;
+
+    line-height:1.19;
+    letter-spacing: 0.03em;
+    color: blue;
+}
+.logo {
+    font-family: Raleway;
+    font-size: 26px;
+    font-weight: 700;
+    color:inherit;
+    line-height: 1.38;
+    letter-spacing: 0.03em;
+}
+.site-nav .link{       
+    font-size: 14px;
+    font-weight: 500;
+    font-style: normal;
+    color: #212121;
+    
+    line-height: 1.17;
+    letter-spacing: 0.02em;
+}
+.site-nav .link:hover,
+.site-nav .link:focus{
+    color:blue;
+}
+/*  ---------------- header contact -----------------  */
+.mail{    
+    font-style: normal;
+    font-size: 14px;
+    font-weight: 500;
+    color:#2196F3;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+}
+.tel{    
+    font-size: 14px;
+    font-weight: 500;
+    color: #757575;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+}
+
+/*  -------------------- footer --------------------*/
+
+footer {
+    background-color: #2F303A;;
+}
+.address{  
+    font-style: normal;
+    font-size:14px;
+    font-weight: 400;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color:#FFFFFF;
+}
+.address a{     
+    font-size: 14px;
+    font-weight: 400;
+    line-height:1.71;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+/* ---------------- INDEX -> main -------------*/
+.hero {
+    background-color: #2F303A;
+}
+.hero h1{   
+    font-size: 44px; 
+    font-weight: 900;
+    color: #FFFFFF;
+    line-height:1.36;
+    text-align: center;
+    letter-spacing:0.06rem;
+    text-transform:uppercase;
+}
+.btn{
+    background-color: #2196F3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    font-style: normal;
+    font-weight:700;
+    font-size:16px;
+    line-height: 1.9;
+    display:flex;
+    align-items:center;
+    letter-spacing:0.06em;
+    color:#ffffff;
+}
+.section-title {    
+    font-size: 36px;     
+    font-weight: 700;
+    line-height: 1.16;    
+    letter-spacing: 0.03em;
+}
+.features .title{
+    font-size: 14px;
+    line-height:1.14;
+    text-transform: uppercase;
+}
+
+.features p{
+    font-size:14px;
+    font-weight:400;
+    line-height:1.71;
+    color: #757575;
+}
+
+.activity{
+ display:flex;
+}
+
+.team .title{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.18;
+}
+.team p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.18;   
+    text-align: center;
+    letter-spacing: 0.03em;   
+    color: #757575;
+}
+
+/* PORTFOLIO -> main */
 .filter-button li{
     color:grey;
 }
