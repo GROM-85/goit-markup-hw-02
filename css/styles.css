@@ -1,7 +1,16 @@
+/* all vars in root is available within this doc */
+/* could be set localy inside each class */
+:root {
+  --primary-text-color: #212121;
+  --accent-color: #2196f3;
+  --sec-text-color: #757575;
+  --bcg-white-color: #fff;
+}
+
 body {
   font-family: Roboto;
-  color: black;
-  background-color: #fff;
+  color: var(--primary-text-color);
+  background-color: var(--bcg-white-color);
 }
 
 .list {
@@ -11,10 +20,29 @@ body {
 a:link {
   text-decoration: none; /* remove underline from links */
 }
-
+.hidden-title {
+  visibility: hidden;
+}
+/* BUTTONS */
+.btn {
+  background-color: var(--bcg-white-color);
+  color: var(--primary-text-color);
+  border: none;
+  cursor: pointer;
+  text-align: center;
+  box-shadow: none;
+}
+.primary {
+  background-color: var(--accent-color);
+  color: #ffffff;
+}
+.secondary {
+  background-color: #f5f4fa;
+  color: var(--primary-text-color);
+}
 /* --------------------  navigation ----------------- */
 header {
-  background-color: #fff;
+  background-color: var(--bcg-white-color);
 }
 .logo span {
   font-family: Raleway;
@@ -22,7 +50,7 @@ header {
   font-weight: 700;
   line-height: 1.19;
   letter-spacing: 0.03em;
-  color: #2196f3;
+  color: var(--accent-color);
 }
 .logo {
   font-family: Raleway;
@@ -36,26 +64,28 @@ header {
   font-size: 14px;
   font-weight: 500;
   font-style: normal;
-  color: #212121;
-
+  color: var(--primary-text-color);
   line-height: 1.17;
   letter-spacing: 0.02em;
 }
+.site-nav .link.current{
+    color:var(--accent-color);
+}
 .site-nav .link:hover,
 .site-nav .link:focus {
-  color: #2196f3;
+  color: var(--accent-color);
 }
 /*  ---------------- header contact -----------------  */
 .contacts .link {
   font-size: 14px;
   font-weight: 500;
-  color: #757575;
+  color: var(--sec-text-color);
   line-height: 1.14;
   letter-spacing: 0.02em;
 }
 .contacts .link:hover,
 .contacts .link:focus {
-  color: #2196f3;
+  color: var(--accent-color);
 }
 
 /*  -------------------- footer --------------------*/
@@ -70,7 +100,7 @@ footer {
   color: inherit;
   line-height: 1.38;
   letter-spacing: 0.03em;
-  color: #ffffff;
+  color: var(--bcg-white-color);
 }
 
 .logo-footer span {
@@ -79,7 +109,7 @@ footer {
   font-weight: 700;
   line-height: 1.19;
   letter-spacing: 0.03em;
-  color: #2196f3;
+  color: var(--accent-color);
 }
 .address {
   font-style: normal;
@@ -110,7 +140,7 @@ footer {
   letter-spacing: 0.06rem;
   text-transform: uppercase;
 }
-.btn {
+.btn.primary {
   font-family: inherit;
   font-style: normal;
   font-weight: 700;
@@ -119,25 +149,20 @@ footer {
   display: flex;
   margin: auto;
   letter-spacing: 0.06em;
-  color: #ffffff;
-  background-color: #2196f3;
+  background-color: var(--accent-color);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  border: none;
   border-radius: 4px;
   transition-duration: 0.4s;
-  cursor: pointer;
 }
-.btn:hover,
-.btn:focus {
+.btn.primary:hover,
+.btn.primary:focus {
   background-color: #117fd8;
 }
 
 .team-section {
   background-color: #f5f4fa;
 }
-.hidden-title {
-  visibility: hidden;
-}
+
 .section-title {
   font-size: 36px;
   font-weight: 700;
@@ -145,37 +170,36 @@ footer {
   letter-spacing: 0.03em;
   text-align: center;
 }
-.features .title {
+.features-title {
   font-size: 14px;
   line-height: 1.14;
   text-transform: uppercase;
   text-align: left;
 }
 
-.features p {
+.features-text {
   font-size: 14px;
   font-weight: 400;
   line-height: 1.71;
-  color: #757575;
+  color: var(--sec-text-color);
   text-align: left;
 }
 
 .activity {
   display: flex;
-  margin: ;
 }
 
-.team .title {
+.team-title {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.18;
 }
-.team p {
+.team-text {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.18;
   letter-spacing: 0.03em;
-  color: #757575;
+  color: var(--sec-text-color);
 }
 
 /* ----------------------PORTFOLIO -> main-------------------- */
@@ -186,24 +210,18 @@ footer {
 .filter li {
   display: inline-block;
 }
-.filter .portf-btn {
+.btn.secondary {
   font-family: inherit;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 16.2;
-  text-align: center;
-  background-color: #f5f4fa;
-  box-shadow: none;
-  color: #212121;
   border-radius: 4px;
-  border: none;
-  cursor: pointer;
 }
 
-.filter .portf-btn:hover,
-.filter .portf-btn:focus {
-  background-color: #2196f3;
+.btn.secondary:hover,
+.btn.secondary:focus {
+  background-color: var(--accent-color);
   color: #ffffff;
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
@@ -214,12 +232,12 @@ footer {
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
-  color: #212121;
+  color: var(--primary-text-color);
 }
 .content p {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.88;
   letter-spacing: 0.03em;
-  color: #757575;
+  color: var(--sec-text-color);
 }
