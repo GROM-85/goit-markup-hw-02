@@ -1,227 +1,225 @@
 body {
-    font-family: Roboto;
-    color: black;
-    background-color: #fff;
+  font-family: Roboto;
+  color: black;
+  background-color: #fff;
 }
 
-.list{
-    list-style: none; /* remove dots from list */
+.list {
+  list-style: none; /* remove dots from list */
 }
 
-a:link{
-    text-decoration: none; /* remove underline from links */
+a:link {
+  text-decoration: none; /* remove underline from links */
 }
 
 /* --------------------  navigation ----------------- */
-header{
-    background-color: #fff;
+header {
+  background-color: #fff;
 }
-.logo span{
-    font-family: Raleway;
-    font-size:26px;
-    font-weight:700;
-    line-height:1.19;
-    letter-spacing: 0.03em;
-    color: #2196F3;
+.logo span {
+  font-family: Raleway;
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: #2196f3;
 }
 .logo {
-    font-family: Raleway;
-    font-size: 26px;
-    font-weight: 700;
-    color:inherit;
-    line-height: 1.38;
-    letter-spacing: 0.03em;
+  font-family: Raleway;
+  font-size: 26px;
+  font-weight: 700;
+  color: inherit;
+  line-height: 1.38;
+  letter-spacing: 0.03em;
 }
-.site-nav .link{       
-    font-size: 14px;
-    font-weight: 500;
-    font-style: normal;
-    color: #212121;
-    
-    line-height: 1.17;
-    letter-spacing: 0.02em;
+.site-nav .link {
+  font-size: 14px;
+  font-weight: 500;
+  font-style: normal;
+  color: #212121;
+
+  line-height: 1.17;
+  letter-spacing: 0.02em;
 }
 .site-nav .link:hover,
-.site-nav .link:focus{
-    color:#2196F3;
+.site-nav .link:focus {
+  color: #2196f3;
 }
 /*  ---------------- header contact -----------------  */
-.contacts .link{
-        
-    font-size: 14px;
-    font-weight: 500;
-    color: #757575;
-    line-height: 1.14;
-    letter-spacing: 0.02em;
+.contacts .link {
+  font-size: 14px;
+  font-weight: 500;
+  color: #757575;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
 }
 .contacts .link:hover,
-.contacts .link:focus{   
-    color:#2196F3;    
+.contacts .link:focus {
+  color: #2196f3;
 }
-
 
 /*  -------------------- footer --------------------*/
 
 footer {
-    background-color: #2F303A;;
+  background-color: #2f303a;
 }
-.logo-footer{       
-    font-family: Raleway;
-    font-size: 26px;
-    font-weight: 700;
-    color:inherit;
-    line-height: 1.38;
-    letter-spacing: 0.03em;
-    color:#FFFFFF;
+.logo-footer {
+  font-family: Raleway;
+  font-size: 26px;
+  font-weight: 700;
+  color: inherit;
+  line-height: 1.38;
+  letter-spacing: 0.03em;
+  color: #ffffff;
 }
 
-.logo-footer span{
-    font-family: Raleway;
-    font-size:26px;
-    font-weight:700;
-    line-height:1.19;
-    letter-spacing: 0.03em;
-    color: #2196F3;
+.logo-footer span {
+  font-family: Raleway;
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: #2196f3;
 }
-.address{  
-    font-style: normal;
-    font-size:14px;
-    font-weight: 400;
-    line-height: 1.71;
-    letter-spacing: 0.03em;
-    color:#FFFFFF;
+.address {
+  font-style: normal;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: #ffffff;
 }
-.address a{     
-    font-size: 14px;
-    font-weight: 400;
-    line-height:1.71;
-    letter-spacing: 0.03em;
-    color: rgba(255, 255, 255, 0.6);
+.address a {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
 }
 
 /* ---------------- INDEX -> main -------------*/
 .hero {
-    background-color: #2F303A;
+  background-color: #2f303a;
 }
-.hero h1{   
-    font-size: 44px; 
-    font-weight: 900;
-    color: #FFFFFF;
-    line-height:1.36;
-    text-align: center;
-    letter-spacing:0.06rem;
-    text-transform:uppercase;
+.hero h1 {
+  font-size: 44px;
+  font-weight: 900;
+  color: #ffffff;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06rem;
+  text-transform: uppercase;
 }
-.btn{    
-    font-family:inherit;
-    font-style: normal;
-    font-weight:700;
-    font-size:16px; 
-    line-height: 1.9;
-    display:flex;
-    margin:auto;
-    letter-spacing:0.06em;
-    color:#ffffff;
-    background-color: #2196F3;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);  
-    border:none;  
-    border-radius: 4px;
-    transition-duration: 0.4s;
-    cursor: pointer;
+.btn {
+  font-family: inherit;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.9;
+  display: flex;
+  margin: auto;
+  letter-spacing: 0.06em;
+  color: #ffffff;
+  background-color: #2196f3;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border: none;
+  border-radius: 4px;
+  transition-duration: 0.4s;
+  cursor: pointer;
 }
 .btn:hover,
-.btn:focus{
-    background-color: #117fd8;
+.btn:focus {
+  background-color: #117fd8;
 }
 
-.team-section{
-    background-color: #F5F4FA;
+.team-section {
+  background-color: #f5f4fa;
 }
-.hidden-title{
-    visibility:hidden;
+.hidden-title {
+  visibility: hidden;
 }
-.section-title {    
-    font-size: 36px;     
-    font-weight: 700;
-    line-height: 1.16;    
-    letter-spacing: 0.03em;
-    text-align: center;
+.section-title {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.16;
+  letter-spacing: 0.03em;
+  text-align: center;
 }
-.features .title{
-    font-size: 14px;
-    line-height:1.14;
-    text-transform: uppercase;
-    text-align:left;
-}
-
-.features p{
-    font-size:14px;
-    font-weight:400;
-    line-height:1.71;
-    color: #757575;
-    text-align: left;
+.features .title {
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+  text-align: left;
 }
 
-.activity{
- display:flex;
- margin:
+.features p {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.71;
+  color: #757575;
+  text-align: left;
 }
 
-.team .title{
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.18;
-    
+.activity {
+  display: flex;
+  margin: ;
 }
-.team p{
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.18;   
-    letter-spacing: 0.03em;   
-    color: #757575;
+
+.team .title {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+}
+.team p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.18;
+  letter-spacing: 0.03em;
+  color: #757575;
 }
 
 /* ----------------------PORTFOLIO -> main-------------------- */
-.filter{
-  width:100%;
-  text-align: center;  
-} 
-.filter li{
-    display:inline-block;
+.filter {
+  width: 100%;
+  text-align: center;
+}
+.filter li {
+  display: inline-block;
 }
 .filter .portf-btn {
-    font-family:inherit;
-    font-style:normal;
-    font-weight:500;
-    font-size:16px;    
-    line-height:16.2;
-    text-align: center;    
-    background-color: #F5F4FA;
-    box-shadow: none;
-    color:#212121;
-    border-radius: 4px;
-    border:none;
-    cursor: pointer;    
+  font-family: inherit;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 16.2;
+  text-align: center;
+  background-color: #f5f4fa;
+  box-shadow: none;
+  color: #212121;
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
 }
 
 .filter .portf-btn:hover,
-.filter .portf-btn:focus{
-    background-color:#2196F3;
-    color:#ffffff;
-    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
-    border-radius: 4px;
+.filter .portf-btn:focus {
+  background-color: #2196f3;
+  color: #ffffff;
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
 }
-.content .title{
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 2;
-    letter-spacing: 0.06em;
-    color:#212121;
+.content .title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: #212121;
 }
-.content p{
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.88;
-    letter-spacing: 0.03em;
-    color: #757575;
+.content p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.03em;
+  color: #757575;
 }
