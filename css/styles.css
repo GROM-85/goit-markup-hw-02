@@ -8,7 +8,7 @@
 }
 
 body {
-  font-family: Roboto;
+  font-family: Roboto, sans-serif;
   color: var(--primary-text-color);
   background-color: var(--bcg-white-color);
 }
@@ -68,8 +68,8 @@ header {
   line-height: 1.17;
   letter-spacing: 0.02em;
 }
-.site-nav .link.current{
-    color:var(--accent-color);
+.site-nav .link.current {
+  color: var(--accent-color);
 }
 .site-nav .link:hover,
 .site-nav .link:focus {
@@ -215,8 +215,9 @@ footer {
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
-  line-height: 16.2;
+  line-height: 1.62;
   border-radius: 4px;
+  margin: 8px;
 }
 
 .btn.secondary:hover,
